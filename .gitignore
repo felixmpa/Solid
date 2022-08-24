@@ -1,0 +1,7 @@
+build
+composer.lock
+.phpunit.result.cache
+coverage
+vendor
+.git/
+.vscode/

@@ -1,0 +1,33 @@
+{
+    "name": "solid/conceptual",
+    "description": "This is a set of practices adopting the first five object-oriented design (OOD) principles.",
+    "homepage": "https://github.com/felixmpa/solid",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felix Perez",
+            "email": "felixmpa@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Solid\\Conceptual\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Solid\\Conceptual\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}
